@@ -1,0 +1,11 @@
+.footer {
+  margin-top: 90px;
+  height: 65px;
+  background: #000;
+  display: grid;
+  place-content: center;
+}
+.footer p {
+  font-weight: 900;
+  color: #fff;
+}
