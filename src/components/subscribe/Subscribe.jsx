@@ -10,15 +10,15 @@ const Subscribe = () => {
           <div className="subscribe__desc">
             <h2>Subscribe To Newsletter</h2>
             <p>Get free guide about smart watches daily. </p>
-            <div className="subscribe__input">
+            <form className="subscribe__input">
               <input
                 type="email"
                 placeholder="Enter Email Address"
                 id="email"
                 name="emailInput"
               />
-              <button>Subscribe</button>
-            </div>
+              <button type="button">Subscribe</button>
+            </form>
           </div>
           <div className="subscribe__img">
             <img src={img} alt={alt} />
